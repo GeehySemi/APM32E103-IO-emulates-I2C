@@ -1,0 +1,17 @@
+.\objects\soft_i2c.o: ..\src\soft_i2c.c
+.\objects\soft_i2c.o: ..\inc\soft_i2c.h
+.\objects\soft_i2c.o: ..\inc\main.h
+.\objects\soft_i2c.o: ..\..\..\..\Board\Board.h
+.\objects\soft_i2c.o: ..\..\..\..\Board\Board_APM32E103_MINI.h
+.\objects\soft_i2c.o: ..\..\..\..\Library\Device\Geehy\APM32E10x\Include\apm32e10x.h
+.\objects\soft_i2c.o: ..\..\..\..\Library\CMSIS\Include\core_cm3.h
+.\objects\soft_i2c.o: C:\MySofaware\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\soft_i2c.o: ..\..\..\..\Library\CMSIS\Include\cmsis_version.h
+.\objects\soft_i2c.o: ..\..\..\..\Library\CMSIS\Include\cmsis_compiler.h
+.\objects\soft_i2c.o: ..\..\..\..\Library\CMSIS\Include\cmsis_armcc.h
+.\objects\soft_i2c.o: ..\..\..\..\Library\Device\Geehy\APM32E10x\Include\system_apm32e10x.h
+.\objects\soft_i2c.o: ..\..\..\..\Library\APM32E10x_StdPeriphDriver\inc\apm32e10x_gpio.h
+.\objects\soft_i2c.o: ..\..\..\..\Library\APM32E10x_StdPeriphDriver\inc\apm32e10x_rcm.h
+.\objects\soft_i2c.o: ..\..\..\..\Library\APM32E10x_StdPeriphDriver\inc\apm32e10x_eint.h
+.\objects\soft_i2c.o: ..\..\..\..\Library\APM32E10x_StdPeriphDriver\inc\apm32e10x_usart.h
+.\objects\soft_i2c.o: ..\..\..\..\Library\APM32E10x_StdPeriphDriver\inc\apm32e10x_misc.h

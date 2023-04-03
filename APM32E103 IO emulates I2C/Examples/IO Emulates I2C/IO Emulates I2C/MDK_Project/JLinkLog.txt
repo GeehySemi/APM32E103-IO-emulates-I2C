@@ -1,0 +1,71 @@
+T602C 317:229.984   SEGGER J-Link V6.72e Log File
+T602C 317:230.044   DLL Compiled: May 20 2020 12:45:53
+T602C 317:230.056   Logging started @ 2022-08-10 10:55
+T602C 317:230.070 JLINK_SetWarnOutHandler(...)
+T602C 317:230.081 - 0.016ms
+T602C 317:230.093 JLINK_OpenEx(...)
+T602C 317:232.295   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T602C 317:232.437   Decompressing FW timestamp took 112 us
+T602C 317:240.215   Hardware: V9.40
+T602C 317:240.244   S/N: 59409985
+T602C 317:240.259   OEM: SEGGER
+T602C 317:240.276   Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+T602C 317:241.991   TELNET listener socket opened on port 19021
+T602C 317:244.912   Device "CORTEX-M3" selected.
+T602C 317:246.552   WEBSRV Starting webserver
+T602C 317:246.787   WEBSRV Webserver running on local port 19080
+T602C 317:246.828 - 16.746ms returns "O.K."
+T602C 317:246.916 JLINK_GetEmuCaps()
+T602C 317:246.941 - 0.036ms returns 0xB9FF7BBF
+T602C 317:246.967 JLINK_TIF_GetAvailable(...)
+T602C 317:247.364 - 0.420ms
+T602C 317:247.400 JLINK_SetErrorOutHandler(...)
+T602C 317:247.414 - 0.020ms
+T602C 317:247.436 JLINK_ExecCommand("ProjectFile = "D:\Geehy\SDK\APM32E10x\APM32E10x_SDK_V1.0\Examples\GPIO\Toggle\MDK_Project\JLinkSettings.ini"", ...). 
+T602C 317:247.917   Device "CORTEX-M3" selected.
+T602C 317:248.276 - 0.853ms returns 0x00
+T602C 317:248.307 JLINK_ExecCommand("Device = APM32E103ZE", ...). 
+T602C 317:248.485   Device "CORTEX-M3" selected.
+T602C 317:248.811 - 0.497ms returns 0x00
+T602C 317:248.834 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T602C 317:248.854 - 0.010ms returns 0x01
+T602C 317:248.871 JLINK_GetHardwareVersion()
+T602C 317:248.885 - 0.021ms returns 0x16F30
+T602C 317:248.901 JLINK_GetDLLVersion()  returns 67205
+T602C 317:248.919 JLINK_GetFirmwareString(...)
+T602C 317:248.933 - 0.020ms
+T602C 317:249.449 JLINK_GetDLLVersion()  returns 67205
+T602C 317:249.467 JLINK_GetCompileDateTime()
+T602C 317:249.481 - 0.021ms
+T602C 317:249.498 JLINK_GetFirmwareString(...)
+T602C 317:249.512 - 0.021ms
+T602C 317:249.527 JLINK_GetHardwareVersion()
+T602C 317:249.541 - 0.021ms returns 0x16F30
+T602C 317:249.561 JLINK_TIF_Select(JLINKARM_TIF_JTAG)
+T602C 317:251.443 - 1.894ms returns 0x00
+T602C 317:251.467 JLINK_SetSpeed(5000)
+T602C 317:251.727 - 0.268ms
+T602C 317:251.972 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T602C 317:251.991 - 0.025ms returns JLINKARM_RESET_TYPE_NORMAL
+T602C 317:252.004 JLINK_Reset()
+T602C 317:253.552   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFE11
+T602C 317:455.873   RESET (pin 15) high, but should be low. Please check target hardware.
+T602C 317:608.768   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFE11
+T602C 317:609.436 JLINK_GetIdData(pIdData)
+T602C 317:610.992   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFE11
+T602C 317:812.205   RESET (pin 15) high, but should be low. Please check target hardware.
+T602C 317:965.403   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFE11
+T602C 317:965.870 - 356.455ms
+T602C 317:965.904 JLINK_GetIdData(pIdData)
+T602C 317:967.420   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFE11
+T602C 318:168.977   RESET (pin 15) high, but should be low. Please check target hardware.
+T602C 318:322.034   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFE11
+T602C 318:322.651 - 356.786ms
+T602C 318:324.783 JLINK_GetFirmwareString(...)
+T602C 318:324.820 - 0.043ms
+T84EC 323:780.379   
+  ***** Error: Connection to emulator lost!
+T602C 347:929.331 JLINK_Close()
+T602C 347:940.869 - 11.578ms
+T602C 347:940.915   
+T602C 347:940.926   Closed

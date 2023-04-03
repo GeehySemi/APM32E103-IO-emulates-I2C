@@ -1,0 +1,6 @@
+Release Notes for APM32E10x SDK
+
+
+Update History
+V1.0 / 29-07-2021
+First Release version of APM32E10x SDK.
